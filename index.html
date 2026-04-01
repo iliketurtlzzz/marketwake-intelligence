@@ -640,15 +640,15 @@ body {
   <nav>
     <a href="#exec"><span class="nav-num">01</span> Executive Summary</a>
     <a href="#timeline"><span class="nav-num">02</span> March Timeline</a>
-    <a href="#ai"><span class="nav-num">03</span> AI &amp; Search</a>
-    <a href="#seo"><span class="nav-num">04</span> SEO Updates</a>
+    <a href="#seo"><span class="nav-num">03</span> SEO Updates</a>
+    <a href="#ai"><span class="nav-num">04</span> AI &amp; Search</a>
     <a href="#paid"><span class="nav-num">05</span> Paid Media</a>
-    <a href="#creative"><span class="nav-num">06</span> Creative &amp; Brand</a>
-    <a href="#social"><span class="nav-num">07</span> Social Media</a>
-    <a href="#content"><span class="nav-num">08</span> Content Strategy</a>
-    <a href="#email"><span class="nav-num">09</span> Email</a>
-    <a href="#industry"><span class="nav-num">10</span> Industry Pulse</a>
-    <a href="#reddit"><span class="nav-num">11</span> Reddit Roundup</a>
+    <a href="#reddit"><span class="nav-num">06</span> Reddit Roundup</a>
+    <a href="#creative"><span class="nav-num">07</span> Creative &amp; Brand</a>
+    <a href="#social"><span class="nav-num">08</span> Social Media</a>
+    <a href="#content"><span class="nav-num">09</span> Content Strategy</a>
+    <a href="#email"><span class="nav-num">10</span> Email</a>
+    <a href="#industry"><span class="nav-num">11</span> Industry Pulse</a>
     <a href="#stat"><span class="nav-num">12</span> Cool Stat</a>
   </nav>
 </aside>
@@ -716,10 +716,144 @@ body {
   </div>
 </section>
 
+<!-- 04 SEO UPDATES -->
+<section class="section" id="seo">
+  <div class="section-header">
+    <span class="section-preheader">03</span>
+    <h2>SEO Updates</h2>
+  </div>
+
+  <!-- GOOGLE ALGORITHM UPDATE CALENDAR -->
+  <div class="chart-container" style="padding:1.5rem 2rem;">
+    <div class="chart-title">Google Algorithm Update Calendar 2026</div>
+    <div style="position:relative;padding:0.5rem 0;">
+
+      <!-- Month tabs -->
+      <div style="display:flex;gap:0;margin-bottom:1rem;">
+        <button onclick="showMonth('jan')" id="tab-jan" class="month-tab" style="flex:1;text-align:center;font-family:'Space Grotesk',sans-serif;font-size:0.6rem;letter-spacing:1px;text-transform:uppercase;color:var(--text-muted);padding:0.6rem 0;border:none;border-bottom:2px solid var(--border);background:none;cursor:pointer;font-weight:500;">Jan</button>
+        <button onclick="showMonth('feb')" id="tab-feb" class="month-tab" style="flex:1;text-align:center;font-family:'Space Grotesk',sans-serif;font-size:0.6rem;letter-spacing:1px;text-transform:uppercase;color:var(--text-muted);padding:0.6rem 0;border:none;border-bottom:2px solid var(--border);background:none;cursor:pointer;font-weight:500;">Feb</button>
+        <button onclick="showMonth('mar')" id="tab-mar" class="month-tab active" style="flex:1;text-align:center;font-family:'Space Grotesk',sans-serif;font-size:0.6rem;letter-spacing:1px;text-transform:uppercase;color:var(--accent);padding:0.6rem 0;border:none;border-bottom:2px solid var(--accent);background:none;cursor:pointer;font-weight:600;">Mar</button>
+      </div>
+
+      <!-- JANUARY -->
+      <div id="month-jan" class="month-panel" style="display:none;">
+        <div style="display:flex;align-items:flex-start;gap:1rem;margin-bottom:1rem;padding-bottom:1rem;border-bottom:1px solid var(--border-light);">
+          <div style="min-width:90px;">
+            <div style="font-family:'Space Grotesk',sans-serif;font-size:0.6rem;letter-spacing:1px;color:var(--text-muted);text-transform:uppercase;">Jan 2026</div>
+            <div style="font-size:0.6rem;color:var(--muted-green);margin-top:0.15rem;">AI Overviews</div>
+          </div>
+          <div>
+            <div style="font-weight:600;font-size:0.85rem;color:var(--black);"><a href="https://nightwatch.io/blog/google-ai-overviews-guide/" target="_blank" style="color:var(--black);text-decoration:none;">AI Overviews Update: Smarter Triggers, Denser Citations, Visual Formats</a></div>
+            <div style="font-size:0.78rem;color:var(--text-secondary);margin-top:0.15rem;">New multimodal support (images, video, charts). "AI Mode" ad format with sponsored "Suggested Solutions." GSC gets dedicated AI Overviews performance filter.</div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:flex-start;gap:1rem;">
+          <div style="min-width:90px;">
+            <div style="font-family:'Space Grotesk',sans-serif;font-size:0.6rem;letter-spacing:1px;color:var(--text-muted);text-transform:uppercase;">Jan 2026</div>
+            <div style="font-size:0.6rem;color:var(--muted-green);margin-top:0.15rem;">Discover</div>
+          </div>
+          <div>
+            <div style="font-weight:600;font-size:0.85rem;color:var(--black);"><a href="https://searchengineland.com/google-search-ai-headline-rewrites-test-472146" target="_blank" style="color:var(--black);text-decoration:none;">AI Headline Rewrites Made Permanent in Discover</a></div>
+            <div style="font-size:0.78rem;color:var(--text-secondary);margin-top:0.15rem;">What was called a "small test" in Dec 2025 became a permanent feature by January. Foreshadowed the March Search headline test.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FEBRUARY -->
+      <div id="month-feb" class="month-panel" style="display:none;">
+        <div style="display:flex;align-items:flex-start;gap:1rem;">
+          <div style="min-width:90px;">
+            <div style="font-family:'Space Grotesk',sans-serif;font-size:0.6rem;letter-spacing:1px;color:var(--text-muted);text-transform:uppercase;">Feb 5 - 26</div>
+            <div style="font-size:0.6rem;color:var(--muted-green);margin-top:0.15rem;">21-day rollout</div>
+          </div>
+          <div>
+            <div style="font-weight:600;font-size:0.85rem;color:var(--black);"><a href="https://developers.google.com/search/blog/2026/02/discover-core-update" target="_blank" style="color:var(--black);text-decoration:none;">February 2026 Discover Core Update</a></div>
+            <div style="font-size:0.78rem;color:var(--text-secondary);margin-top:0.15rem;">First-ever Discover-only update. Rewards locally relevant, in-depth content. Penalizes clickbait and sensational headlines. Reduced Discover distribution for non-US publishers targeting US audiences. Initially English/US only, global expansion planned.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MARCH (default visible) -->
+      <div id="month-mar" class="month-panel">
+
+        <div style="display:flex;align-items:flex-start;gap:1rem;margin-bottom:1rem;padding-bottom:1rem;border-bottom:1px solid var(--border-light);">
+          <div style="min-width:90px;">
+            <div style="font-family:'Space Grotesk',sans-serif;font-size:0.6rem;letter-spacing:1px;color:var(--text-muted);text-transform:uppercase;">Mar 11</div>
+            <div style="font-size:0.6rem;color:var(--muted-green);margin-top:0.15rem;">Search Console</div>
+          </div>
+          <div>
+            <div style="font-weight:600;font-size:0.85rem;color:var(--black);"><a href="https://searchengineland.com/google-search-console-branded-query-filter-seo-reporting-analysis-472474" target="_blank" style="color:var(--black);text-decoration:none;">Branded Queries Filter Full Rollout</a></div>
+            <div style="font-size:0.78rem;color:var(--text-secondary);margin-top:0.15rem;">AI-assisted classification separates branded and non-branded queries. New Insights card with percentage splits.</div>
+          </div>
+        </div>
+
+        <div style="display:flex;align-items:flex-start;gap:1rem;margin-bottom:1rem;padding-bottom:1rem;border-bottom:1px solid var(--border-light);">
+          <div style="min-width:90px;">
+            <div style="font-family:'Space Grotesk',sans-serif;font-size:0.6rem;letter-spacing:1px;color:var(--text-muted);text-transform:uppercase;">Mar 21</div>
+            <div style="font-size:0.6rem;color:var(--orange);margin-top:0.15rem;">In testing</div>
+          </div>
+          <div>
+            <div style="font-weight:600;font-size:0.85rem;color:var(--black);"><a href="https://searchengineland.com/google-search-ai-headline-rewrites-test-472146" target="_blank" style="color:var(--black);text-decoration:none;">AI Headline Rewrites Test in Search Results</a></div>
+            <div style="font-size:0.78rem;color:var(--text-secondary);margin-top:0.15rem;">Google confirmed AI-generated headline rewrites for blue-link results. No user disclosure. Called "small and narrow" but follows the Discover precedent.</div>
+          </div>
+        </div>
+
+        <div style="display:flex;align-items:flex-start;gap:1rem;margin-bottom:1rem;padding-bottom:1rem;border-bottom:1px solid var(--border-light);">
+          <div style="min-width:90px;">
+            <div style="font-family:'Space Grotesk',sans-serif;font-size:0.6rem;letter-spacing:1px;color:var(--text-muted);text-transform:uppercase;">Mar 24 - 25</div>
+            <div style="font-size:0.6rem;color:var(--orange);margin-top:0.15rem;">19.5 hours</div>
+          </div>
+          <div>
+            <div style="font-weight:600;font-size:0.85rem;color:var(--black);"><a href="https://searchengineland.com/google-releases-march-2026-spam-update-472411" target="_blank" style="color:var(--black);text-decoration:none;">March 2026 Spam Update</a></div>
+            <div style="font-size:0.78rem;color:var(--text-secondary);margin-top:0.15rem;">Fastest spam update on record. Targets AI content farms, listicle-heavy pages, thin affiliate content. Global, all languages.</div>
+          </div>
+        </div>
+
+        <div style="display:flex;align-items:flex-start;gap:1rem;">
+          <div style="min-width:90px;">
+            <div style="font-family:'Space Grotesk',sans-serif;font-size:0.6rem;letter-spacing:1px;color:var(--text-muted);text-transform:uppercase;">Mar 27 - TBD</div>
+            <div style="font-size:0.6rem;color:var(--orange);margin-top:0.15rem;">Rolling out</div>
+          </div>
+          <div>
+            <div style="font-weight:600;font-size:0.85rem;color:var(--black);"><a href="https://www.searchenginejournal.com/google-begins-rolling-out-march-2026-core-update/570657/" target="_blank" style="color:var(--black);text-decoration:none;">March 2026 Core Update</a></div>
+            <div style="font-size:0.78rem;color:var(--text-secondary);margin-top:0.15rem;">Semrush Sensor 8.7/10. 55% of tracked domains moved >5 positions. AI content farms -60-80%. Up to 2 weeks to complete.</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div style="font-size:0.7rem;color:var(--text-muted);margin-top:1rem;">See also: <a href="https://developers.google.com/search/updates/ranking" target="_blank" style="color:var(--accent);text-decoration:none;">Google Search Status Dashboard</a> &middot; <a href="https://www.searchenginejournal.com/google-algorithm-history/" target="_blank" style="color:var(--accent);text-decoration:none;">SEJ Algorithm History</a></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>March 2026 Core Update: The Most Volatile in Recent Memory</h3>
+    <p>Launched March 27. <a href="https://www.searchenginejournal.com/google-begins-rolling-out-march-2026-core-update/570657/" target="_blank">Semrush Sensor hit 8.7/10</a>. 55% of tracked domains saw ranking movement >5 positions. AI content farms lost 60-80% traffic. Affiliate sites hit hardest: 71% experienced drops. Strongly rewards E-E-A-T signals. Still rolling out.</p>
+    <div class="sources">Sources: <a href="https://searchengineland.com/google-march-2026-core-update-rolling-out-now-472759" target="_blank">Search Engine Land</a> <a href="https://www.searchenginejournal.com/google-begins-rolling-out-march-2026-core-update/570657/" target="_blank">SEJ</a> <a href="https://almcorp.com/blog/google-march-2026-core-update/" target="_blank">ALM Corp</a></div>
+  </div>
+
+  <div class="card">
+    <h3>Spam Update Completed in Record 19.5 Hours</h3>
+    <p>Began March 24, done March 25. Targets listicle-heavy content, AI rewriters, thin affiliate pages. <a href="https://www.searchenginejournal.com/googles-march-spam-update-felt-muted-but-may-signal-bigger-changes/570541/" target="_blank">SEJ: "felt muted" in surface metrics</a> but may signal more aggressive enforcement ahead.</p>
+    <div class="sources">Sources: <a href="https://searchengineland.com/google-releases-march-2026-spam-update-472411" target="_blank">Search Engine Land</a> <a href="https://www.searchenginejournal.com/googles-march-spam-update-felt-muted-but-may-signal-bigger-changes/570541/" target="_blank">SEJ</a></div>
+  </div>
+
+  <div class="card">
+    <h3>Google Testing AI Headline Rewrites in Search Results</h3>
+    <p><a href="https://searchengineland.com/google-search-ai-headline-rewrites-test-472146" target="_blank">Confirmed March 21</a>: AI generates entirely new titles for listings. No disclosure to users. Same language preceded Discover rewrites becoming permanent. Title tag optimization may become partially irrelevant for CTR.</p>
+    <div class="sources">Sources: <a href="https://searchengineland.com/google-search-ai-headline-rewrites-test-472146" target="_blank">Search Engine Land</a> <a href="https://9to5google.com/2026/03/21/google-search-test-replaces-headlines-and-website-titles-with-ai/" target="_blank">9to5Google</a></div>
+  </div>
+
+  <div class="takeaway">
+    <div class="takeaway-label">Key Takeaway</div>
+    <p>Two algorithm updates in 3 days. Volume-based AI content strategies are being dismantled. Do not make reactive changes mid-rollout; assess after completion in mid-April.</p>
+  </div>
+</section>
+
 <!-- 03 AI & SEARCH -->
 <section class="section" id="ai">
   <div class="section-header">
-    <span class="section-preheader">03</span>
+    <span class="section-preheader">04</span>
     <h2>AI &amp; Search</h2>
   </div>
 
@@ -756,90 +890,6 @@ body {
   <div class="takeaway">
     <div class="takeaway-label">Key Takeaway</div>
     <p>Search is fragmenting across AI surfaces. Traditional SEO alone leaves half the landscape unaddressed. GEO is now a required competency. Front-load authoritative claims in the top third of every page, where 44.2% of AI citations pull from.</p>
-  </div>
-</section>
-
-<!-- 04 SEO UPDATES -->
-<section class="section" id="seo">
-  <div class="section-header">
-    <span class="section-preheader">04</span>
-    <h2>SEO Updates</h2>
-  </div>
-
-  <!-- GOOGLE ALGORITHM UPDATE CALENDAR -->
-  <div class="chart-container" style="padding:1.5rem 2rem;">
-    <div class="chart-title">Google Algorithm Update Calendar 2026</div>
-    <div style="position:relative;padding:1rem 0;">
-
-      <!-- Calendar row visual -->
-      <div style="display:flex;gap:0;margin-bottom:0.5rem;">
-        <div style="flex:1;text-align:center;font-family:'Space Grotesk',sans-serif;font-size:0.55rem;letter-spacing:1px;text-transform:uppercase;color:var(--text-muted);padding-bottom:0.5rem;border-bottom:2px solid var(--border);">Jan</div>
-        <div style="flex:1;text-align:center;font-family:'Space Grotesk',sans-serif;font-size:0.55rem;letter-spacing:1px;text-transform:uppercase;color:var(--text-muted);padding-bottom:0.5rem;border-bottom:2px solid var(--border);">Feb</div>
-        <div style="flex:1;text-align:center;font-family:'Space Grotesk',sans-serif;font-size:0.55rem;letter-spacing:1px;text-transform:uppercase;color:var(--accent);font-weight:600;padding-bottom:0.5rem;border-bottom:2px solid var(--accent);">Mar</div>
-      </div>
-
-      <!-- Update entries -->
-      <div style="margin-top:1rem;">
-
-        <div style="display:flex;align-items:flex-start;gap:1rem;margin-bottom:1rem;padding-bottom:1rem;border-bottom:1px solid var(--border-light);">
-          <div style="min-width:90px;">
-            <div style="font-family:'Space Grotesk',sans-serif;font-size:0.6rem;letter-spacing:1px;color:var(--text-muted);text-transform:uppercase;">Feb 5 - 26</div>
-            <div style="font-size:0.6rem;color:var(--muted-green);margin-top:0.15rem;">21-day rollout</div>
-          </div>
-          <div>
-            <div style="font-weight:600;font-size:0.85rem;color:var(--black);"><a href="https://developers.google.com/search/blog/2026/02/discover-core-update" target="_blank" style="color:var(--black);text-decoration:none;">February 2026 Discover Core Update</a></div>
-            <div style="font-size:0.78rem;color:var(--text-secondary);margin-top:0.15rem;">First-ever Discover-only update. Rewards locally relevant, in-depth content. Penalizes clickbait.</div>
-          </div>
-        </div>
-
-        <div style="display:flex;align-items:flex-start;gap:1rem;margin-bottom:1rem;padding-bottom:1rem;border-bottom:1px solid var(--border-light);">
-          <div style="min-width:90px;">
-            <div style="font-family:'Space Grotesk',sans-serif;font-size:0.6rem;letter-spacing:1px;color:var(--text-muted);text-transform:uppercase;">Mar 24 - 25</div>
-            <div style="font-size:0.6rem;color:var(--orange);margin-top:0.15rem;">19.5 hours</div>
-          </div>
-          <div>
-            <div style="font-weight:600;font-size:0.85rem;color:var(--black);"><a href="https://searchengineland.com/google-releases-march-2026-spam-update-472411" target="_blank" style="color:var(--black);text-decoration:none;">March 2026 Spam Update</a></div>
-            <div style="font-size:0.78rem;color:var(--text-secondary);margin-top:0.15rem;">Fastest spam update completion on record. Targets AI content farms, listicle-heavy pages, thin affiliate content.</div>
-          </div>
-        </div>
-
-        <div style="display:flex;align-items:flex-start;gap:1rem;margin-bottom:1rem;padding-bottom:1rem;border-bottom:1px solid var(--border-light);">
-          <div style="min-width:90px;">
-            <div style="font-family:'Space Grotesk',sans-serif;font-size:0.6rem;letter-spacing:1px;color:var(--text-muted);text-transform:uppercase;">Mar 27 - TBD</div>
-            <div style="font-size:0.6rem;color:var(--orange);margin-top:0.15rem;">Rolling out now</div>
-          </div>
-          <div>
-            <div style="font-weight:600;font-size:0.85rem;color:var(--black);"><a href="https://www.searchenginejournal.com/google-begins-rolling-out-march-2026-core-update/570657/" target="_blank" style="color:var(--black);text-decoration:none;">March 2026 Core Update</a></div>
-            <div style="font-size:0.78rem;color:var(--text-secondary);margin-top:0.15rem;">Semrush Sensor 8.7/10. 55% of tracked domains moved >5 positions. AI content farms -60-80%. Up to 2 weeks to complete.</div>
-          </div>
-        </div>
-
-      </div>
-      <div style="font-size:0.7rem;color:var(--text-muted);margin-top:0.5rem;">See also: <a href="https://developers.google.com/search/updates/ranking" target="_blank" style="color:var(--accent);text-decoration:none;">Google Search Status Dashboard</a> &middot; <a href="https://www.searchenginejournal.com/google-algorithm-history/" target="_blank" style="color:var(--accent);text-decoration:none;">SEJ Algorithm History</a></div>
-    </div>
-  </div>
-
-  <div class="card">
-    <h3>March 2026 Core Update: The Most Volatile in Recent Memory</h3>
-    <p>Launched March 27. <a href="https://www.searchenginejournal.com/google-begins-rolling-out-march-2026-core-update/570657/" target="_blank">Semrush Sensor hit 8.7/10</a>. 55% of tracked domains saw ranking movement >5 positions. AI content farms lost 60-80% traffic. Affiliate sites hit hardest: 71% experienced drops. Strongly rewards E-E-A-T signals. Still rolling out.</p>
-    <div class="sources">Sources: <a href="https://searchengineland.com/google-march-2026-core-update-rolling-out-now-472759" target="_blank">Search Engine Land</a> <a href="https://www.searchenginejournal.com/google-begins-rolling-out-march-2026-core-update/570657/" target="_blank">SEJ</a> <a href="https://almcorp.com/blog/google-march-2026-core-update/" target="_blank">ALM Corp</a></div>
-  </div>
-
-  <div class="card">
-    <h3>Spam Update Completed in Record 19.5 Hours</h3>
-    <p>Began March 24, done March 25. Targets listicle-heavy content, AI rewriters, thin affiliate pages. <a href="https://www.searchenginejournal.com/googles-march-spam-update-felt-muted-but-may-signal-bigger-changes/570541/" target="_blank">SEJ: "felt muted" in surface metrics</a> but may signal more aggressive enforcement ahead.</p>
-    <div class="sources">Sources: <a href="https://searchengineland.com/google-releases-march-2026-spam-update-472411" target="_blank">Search Engine Land</a> <a href="https://www.searchenginejournal.com/googles-march-spam-update-felt-muted-but-may-signal-bigger-changes/570541/" target="_blank">SEJ</a></div>
-  </div>
-
-  <div class="card">
-    <h3>Google Testing AI Headline Rewrites in Search Results</h3>
-    <p><a href="https://searchengineland.com/google-search-ai-headline-rewrites-test-472146" target="_blank">Confirmed March 21</a>: AI generates entirely new titles for listings. No disclosure to users. Same language preceded Discover rewrites becoming permanent. Title tag optimization may become partially irrelevant for CTR.</p>
-    <div class="sources">Sources: <a href="https://searchengineland.com/google-search-ai-headline-rewrites-test-472146" target="_blank">Search Engine Land</a> <a href="https://9to5google.com/2026/03/21/google-search-test-replaces-headlines-and-website-titles-with-ai/" target="_blank">9to5Google</a></div>
-  </div>
-
-  <div class="takeaway">
-    <div class="takeaway-label">Key Takeaway</div>
-    <p>Two algorithm updates in 3 days. Volume-based AI content strategies are being dismantled. Do not make reactive changes mid-rollout; assess after completion in mid-April.</p>
   </div>
 </section>
 
@@ -892,10 +942,51 @@ body {
   </div>
 </section>
 
+<!-- 10 REDDIT ROUNDUP -->
+<section class="section" id="reddit">
+  <div class="section-header">
+    <span class="section-preheader">06</span>
+    <h2>Reddit Roundup</h2>
+  </div>
+  <p class="section-intro">What practitioners are actually talking about. Real sentiment, not PR.</p>
+
+  <div class="reddit-card">
+    <div class="reddit-votes">&#9650;<br><strong>HOT</strong></div>
+    <div class="reddit-body">
+      <div class="sub">r/PPC</div>
+      <h4>"Google Is Adding AI Voiceovers to PMax Ads Without Asking"</h4>
+      <p>Top r/PPC story all month. March 20: auto-applied AI voiceovers to PMax video ads. Opt-out closed. Community livid about brand identity loss and compliance risk in regulated industries. <a href="https://almcorp.com/blog/google-performance-max-ai-voiceover-video-ads/" target="_blank">Source</a></p>
+    </div>
+  </div>
+
+  <div class="reddit-card">
+    <div class="reddit-votes">&#9650;<br><strong>HOT</strong></div>
+    <div class="reddit-body">
+      <div class="sub">r/SEO</div>
+      <h4>Zero-Click at 58%: "Should We Chase AI Citations?"</h4>
+      <p>Active debate: is optimizing for AI Overview citations now the primary SEO goal? Reddit itself is an SEO signal: both Google and OpenAI have data deals with it. <a href="https://seizemarketingagency.com/reddit-and-seo/" target="_blank">Source</a></p>
+    </div>
+  </div>
+
+  <div class="reddit-card">
+    <div class="reddit-votes">&#9650;<br><strong>HOT</strong></div>
+    <div class="reddit-body">
+      <div class="sub">r/marketing</div>
+      <h4>Reddit as a Channel: "Don't Blow It by Being Brand-y"</h4>
+      <p>r/marketing debating how to market on Reddit. Owned subreddits as media assets, B2B AMAs, 9:1 value ratio. Reddit's KarmaLab ID'd 4 creative trends: nostalgia, UGC proof, niche campaigns, "campaigns that unfold." <a href="https://almcorp.com/blog/reddit-brand-engagement-trends-2026/" target="_blank">Source</a></p>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    <div class="takeaway-label">Key Takeaway</div>
+    <p>Practitioner sentiment: "cautiously adaptive." PMax AI voiceover is a real issue for regulated clients. Reddit is becoming a strategic channel as Google and AI systems surface its content.</p>
+  </div>
+</section>
+
 <!-- 06 CREATIVE & BRAND -->
 <section class="section" id="creative">
   <div class="section-header">
-    <span class="section-preheader">06</span>
+    <span class="section-preheader">07</span>
     <h2>Creative &amp; Brand</h2>
   </div>
   <p class="section-intro">For designers, brand strategists, copywriters, and creative directors.</p>
@@ -930,11 +1021,10 @@ body {
   </div>
 </section>
 
-<!-- 07 CONTENT STRATEGY -->
 <!-- 07 SOCIAL MEDIA -->
 <section class="section" id="social">
   <div class="section-header">
-    <span class="section-preheader">07</span>
+    <span class="section-preheader">08</span>
     <h2>Social Media Updates</h2>
   </div>
   <p class="section-intro">Platform-level changes across Instagram, TikTok, YouTube, X, Pinterest, Threads, and LinkedIn.</p>
@@ -978,7 +1068,7 @@ body {
 <!-- 08 CONTENT STRATEGY -->
 <section class="section" id="content">
   <div class="section-header">
-    <span class="section-preheader">08</span>
+    <span class="section-preheader">09</span>
     <h2>Content Strategy</h2>
   </div>
 
@@ -1003,7 +1093,7 @@ body {
 <!-- 08 EMAIL -->
 <section class="section" id="email">
   <div class="section-header">
-    <span class="section-preheader">09</span>
+    <span class="section-preheader">10</span>
     <h2>Email &amp; Deliverability</h2>
   </div>
 
@@ -1040,7 +1130,7 @@ body {
 <!-- 09 INDUSTRY PULSE -->
 <section class="section" id="industry">
   <div class="section-header">
-    <span class="section-preheader">10</span>
+    <span class="section-preheader">11</span>
     <h2>Industry Pulse</h2>
   </div>
 
@@ -1065,47 +1155,6 @@ body {
   <div class="takeaway">
     <div class="takeaway-label">Key Takeaway</div>
     <p>The Omnicom-IPG displacement is the best new business window for independent agencies in years. The industry is settling into two tiers: massive AI-integrated holding companies and specialized independents. The mid-tier is most at risk.</p>
-  </div>
-</section>
-
-<!-- 10 REDDIT ROUNDUP -->
-<section class="section" id="reddit">
-  <div class="section-header">
-    <span class="section-preheader">11</span>
-    <h2>Reddit Roundup</h2>
-  </div>
-  <p class="section-intro">What practitioners are actually talking about. Real sentiment, not PR.</p>
-
-  <div class="reddit-card">
-    <div class="reddit-votes">&#9650;<br><strong>HOT</strong></div>
-    <div class="reddit-body">
-      <div class="sub">r/PPC</div>
-      <h4>"Google Is Adding AI Voiceovers to PMax Ads Without Asking"</h4>
-      <p>Top r/PPC story all month. March 20: auto-applied AI voiceovers to PMax video ads. Opt-out closed. Community livid about brand identity loss and compliance risk in regulated industries. <a href="https://almcorp.com/blog/google-performance-max-ai-voiceover-video-ads/" target="_blank">Source</a></p>
-    </div>
-  </div>
-
-  <div class="reddit-card">
-    <div class="reddit-votes">&#9650;<br><strong>HOT</strong></div>
-    <div class="reddit-body">
-      <div class="sub">r/SEO</div>
-      <h4>Zero-Click at 58%: "Should We Chase AI Citations?"</h4>
-      <p>Active debate: is optimizing for AI Overview citations now the primary SEO goal? Reddit itself is an SEO signal: both Google and OpenAI have data deals with it. <a href="https://seizemarketingagency.com/reddit-and-seo/" target="_blank">Source</a></p>
-    </div>
-  </div>
-
-  <div class="reddit-card">
-    <div class="reddit-votes">&#9650;<br><strong>HOT</strong></div>
-    <div class="reddit-body">
-      <div class="sub">r/marketing</div>
-      <h4>Reddit as a Channel: "Don't Blow It by Being Brand-y"</h4>
-      <p>r/marketing debating how to market on Reddit. Owned subreddits as media assets, B2B AMAs, 9:1 value ratio. Reddit's KarmaLab ID'd 4 creative trends: nostalgia, UGC proof, niche campaigns, "campaigns that unfold." <a href="https://almcorp.com/blog/reddit-brand-engagement-trends-2026/" target="_blank">Source</a></p>
-    </div>
-  </div>
-
-  <div class="takeaway">
-    <div class="takeaway-label">Key Takeaway</div>
-    <p>Practitioner sentiment: "cautiously adaptive." PMax AI voiceover is a real issue for regulated clients. Reddit is becoming a strategic channel as Google and AI systems surface its content.</p>
   </div>
 </section>
 
@@ -1143,6 +1192,8 @@ body {
     <div class="sources">Sources: <a href="https://www.knbcomm.com/blog/marketing-hits-misses-march-2026" target="_blank">KNB Communications</a></div>
   </div>
 </section>
+
+
 
 </div>
 
@@ -1261,6 +1312,21 @@ body {
 </div>
 
 <script>
+
+function showMonth(m) {
+  document.querySelectorAll('.month-panel').forEach(function(p) { p.style.display = 'none'; });
+  document.querySelectorAll('.month-tab').forEach(function(t) {
+    t.style.color = 'var(--text-muted)';
+    t.style.borderBottomColor = 'var(--border)';
+    t.style.fontWeight = '500';
+  });
+  document.getElementById('month-' + m).style.display = 'block';
+  var tab = document.getElementById('tab-' + m);
+  tab.style.color = 'var(--accent)';
+  tab.style.borderBottomColor = 'var(--accent)';
+  tab.style.fontWeight = '600';
+}
+
 function copyExec(btn) {
   const items = document.querySelectorAll('#exec-text .exec-list li span:last-child');
   let text = "MARKETWAKE INTELLIGENCE REPORT // MARCH 2026\n\n";
